@@ -108,8 +108,8 @@
 		E50062FB2A85C26700EA41FE /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E50062F02A85BAFD00EA41FE /* LaunchScreen.storyboard */,
 				E50062EB2A85BAFC00EA41FE /* Main.storyboard */,
+				E50062F02A85BAFD00EA41FE /* LaunchScreen.storyboard */,
 				E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */,
 			);
 			path = Views;

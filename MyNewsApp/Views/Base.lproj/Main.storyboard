@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--MyNewsApp-->
+        <!--My News-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="NewsListViewController" customModule="MyNewsApp" customModuleProvider="target" sceneMemberID="viewController">
@@ -17,12 +17,12 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ONa-mr-NH8">
-                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <rect key="frame" x="0.0" y="155" width="393" height="663"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ONa-mr-NH8" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="QNm-DU-rvz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ONa-mr-NH8" secondAttribute="trailing" id="RZn-em-uce"/>
@@ -30,7 +30,7 @@
                             <constraint firstItem="ONa-mr-NH8" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="u0T-xV-9f4"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="MyNewsApp" id="VvY-Wz-9Pd"/>
+                    <navigationItem key="navigationItem" title="My News" id="VvY-Wz-9Pd"/>
                     <connections>
                         <outlet property="newsListTableView" destination="ONa-mr-NH8" id="i23-Ka-Mc5"/>
                     </connections>
@@ -43,9 +43,10 @@
         <scene sceneID="sCF-rt-U7R">
             <objects>
                 <navigationController id="YyW-0W-LXz" sceneMemberID="viewController">
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vE5-oA-aeR">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="vE5-oA-aeR">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     </navigationBar>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="ZCs-15-xWi"/>
