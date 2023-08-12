@@ -21,6 +21,7 @@
 		E500DC602A8710B900C68E63 /* NewsListLocalDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500DC5F2A8710B900C68E63 /* NewsListLocalDataProvider.swift */; };
 		E500DC632A8739F400C68E63 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */; };
 		E500DC642A8739F400C68E63 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */; };
+		E53F4CFB2A87FBF100E64713 /* no-image.png in Resources */ = {isa = PBXBuildFile; fileRef = E53F4CFA2A87FBF100E64713 /* no-image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		E500DC5F2A8710B900C68E63 /* NewsListLocalDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListLocalDataProvider.swift; sourceTree = "<group>"; };
 		E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		E53F4CFA2A87FBF100E64713 /* no-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		E50062F92A85C20100EA41FE /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				E53F4CFA2A87FBF100E64713 /* no-image.png */,
 				E50062E72A85BAFC00EA41FE /* SceneDelegate.swift */,
 				E50062E52A85BAFC00EA41FE /* AppDelegate.swift */,
 				E50062FC2A85C3B800EA41FE /* NewsList.json */,
@@ -197,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E53F4CFB2A87FBF100E64713 /* no-image.png in Resources */,
 				E50062F22A85BAFD00EA41FE /* LaunchScreen.storyboard in Resources */,
 				E50062EF2A85BAFD00EA41FE /* Assets.xcassets in Resources */,
 				E50062FD2A85C3B800EA41FE /* NewsList.json in Resources */,

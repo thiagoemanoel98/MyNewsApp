@@ -37,6 +37,7 @@ class NewsListViewController: UIViewController {
     private func setupTableView(){
         self.newsListTableView.delegate = self;
         self.newsListTableView.dataSource = self;
+        self.newsListTableView.register(UINib(nibName: "NewsTableViewCell", bundle: nil), forCellReuseIdentifier: "NewsTableViewCell");
     }
     
     private func initLocalDataProvider(){
@@ -56,13 +57,23 @@ extension NewsListViewController: UITableViewDelegate {
     }
 }
 
+// Rever aula 3
 extension NewsListViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.newsList?.count ?? 0;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell();
+        
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "NewsTableViewCell", for: indexPath) as? NewsTableViewCell else { fatalError("Unable to dequeue subclassed cell") }
+        
+        guard let newsList = newsList else {
+            fatalError("Unable news");
+        }
+        
+        cell.news = newsList[indexPath.row]
+        
+        return cell;
     }
 }
 
