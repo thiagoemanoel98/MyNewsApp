@@ -41,13 +41,3 @@ class NewsListRepository {
         }
     }
 }
-
-// Conseguem mudar o coportamento ate de libs internas do ios
-// Mudar o comportamento do DateFormatter
-extension DateFormatter {
-    static let iso860Full: DateFormatter = {
-        let formatter = DateFormatter();
-        formatter.dateFormat = "yyyy-MM-dd'T'HH:mm:ssZ";
-        return formatter;
-    }()
-}

@@ -21,6 +21,7 @@
 		E500DC602A8710B900C68E63 /* NewsListLocalDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500DC5F2A8710B900C68E63 /* NewsListLocalDataProvider.swift */; };
 		E500DC632A8739F400C68E63 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */; };
 		E500DC642A8739F400C68E63 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */; };
+		E50875E92A89631C00DFB66E /* SystemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50875E82A89631C00DFB66E /* SystemExtensions.swift */; };
 		E53F4CFB2A87FBF100E64713 /* no-image.png in Resources */ = {isa = PBXBuildFile; fileRef = E53F4CFA2A87FBF100E64713 /* no-image.png */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		E500DC5F2A8710B900C68E63 /* NewsListLocalDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListLocalDataProvider.swift; sourceTree = "<group>"; };
 		E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
+		E50875E82A89631C00DFB66E /* SystemExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemExtensions.swift; sourceTree = "<group>"; };
 		E53F4CFA2A87FBF100E64713 /* no-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				E53F4CFA2A87FBF100E64713 /* no-image.png */,
 				E50062E72A85BAFC00EA41FE /* SceneDelegate.swift */,
 				E50062E52A85BAFC00EA41FE /* AppDelegate.swift */,
+				E50875E82A89631C00DFB66E /* SystemExtensions.swift */,
 				E50062FC2A85C3B800EA41FE /* NewsList.json */,
 			);
 			path = SupportingFiles;
@@ -216,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E50875E92A89631C00DFB66E /* SystemExtensions.swift in Sources */,
 				E50062EA2A85BAFC00EA41FE /* NewsListViewController.swift in Sources */,
 				E50062E62A85BAFC00EA41FE /* AppDelegate.swift in Sources */,
 				E50063002A85C47000EA41FE /* SourceModel.swift in Sources */,
