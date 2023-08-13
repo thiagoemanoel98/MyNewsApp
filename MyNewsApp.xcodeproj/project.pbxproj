@@ -22,6 +22,7 @@
 		E500DC632A8739F400C68E63 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */; };
 		E500DC642A8739F400C68E63 /* NewsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */; };
 		E50875E92A89631C00DFB66E /* SystemExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50875E82A89631C00DFB66E /* SystemExtensions.swift */; };
+		E50875EB2A8968A600DFB66E /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50875EA2A8968A600DFB66E /* NewsViewController.swift */; };
 		E53F4CFB2A87FBF100E64713 /* no-image.png in Resources */ = {isa = PBXBuildFile; fileRef = E53F4CFA2A87FBF100E64713 /* no-image.png */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		E500DC622A8739F400C68E63 /* NewsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsTableViewCell.xib; sourceTree = "<group>"; };
 		E50875E82A89631C00DFB66E /* SystemExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemExtensions.swift; sourceTree = "<group>"; };
+		E50875EA2A8968A600DFB66E /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
 		E53F4CFA2A87FBF100E64713 /* no-image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -104,6 +106,7 @@
 			children = (
 				E50062E92A85BAFC00EA41FE /* NewsListViewController.swift */,
 				E500DC612A8739F400C68E63 /* NewsTableViewCell.swift */,
+				E50875EA2A8968A600DFB66E /* NewsViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -223,6 +226,7 @@
 				E50062EA2A85BAFC00EA41FE /* NewsListViewController.swift in Sources */,
 				E50062E62A85BAFC00EA41FE /* AppDelegate.swift in Sources */,
 				E50063002A85C47000EA41FE /* SourceModel.swift in Sources */,
+				E50875EB2A8968A600DFB66E /* NewsViewController.swift in Sources */,
 				E500DC602A8710B900C68E63 /* NewsListLocalDataProvider.swift in Sources */,
 				E50062E82A85BAFC00EA41FE /* SceneDelegate.swift in Sources */,
 				E50063082A85CE9500EA41FE /* GenericDataProvider.swift in Sources */,

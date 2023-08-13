@@ -33,11 +33,28 @@
                     <navigationItem key="navigationItem" title="My News" id="VvY-Wz-9Pd"/>
                     <connections>
                         <outlet property="newsListTableView" destination="ONa-mr-NH8" id="i23-Ka-Mc5"/>
+                        <segue destination="AVa-Zs-Ho0" kind="show" identifier="ShowNewsViewController" id="wRc-Gm-JAn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1073" y="-18"/>
+        </scene>
+        <!--Titulo-->
+        <scene sceneID="z4g-Jb-yPW">
+            <objects>
+                <viewController id="AVa-Zs-Ho0" customClass="NewsViewController" customModule="MyNewsApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4Xq-fO-53k">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ICp-mX-u5y"/>
+                        <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Titulo" id="6bA-hk-lWr"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6cK-7w-ahu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1966" y="-18"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sCF-rt-U7R">
