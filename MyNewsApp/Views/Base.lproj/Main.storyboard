@@ -56,30 +56,43 @@
                                     <wkPreferences key="preferences"/>
                                 </wkWebViewConfiguration>
                             </wkWebView>
-                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="GbF-9c-nS7">
-                                <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
-                                <color key="color" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                            </activityIndicatorView>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Eb2-i7-Z5L">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="GbF-9c-nS7">
+                                        <rect key="frame" x="178" y="407.66666666666669" width="37" height="37"/>
+                                        <color key="color" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.31301925981873113" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="0.30187877643504529" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="GbF-9c-nS7" firstAttribute="centerY" secondItem="Eb2-i7-Z5L" secondAttribute="centerY" id="URy-Kf-xvk"/>
+                                    <constraint firstItem="GbF-9c-nS7" firstAttribute="centerX" secondItem="Eb2-i7-Z5L" secondAttribute="centerX" id="wLw-C4-grL"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ICp-mX-u5y"/>
                         <color key="backgroundColor" red="0.0" green="0.51372549020000002" blue="0.5568627451" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="ICp-mX-u5y" firstAttribute="trailing" secondItem="niG-Ug-MK7" secondAttribute="trailing" id="2r0-t8-Cki"/>
-                            <constraint firstItem="GbF-9c-nS7" firstAttribute="centerX" secondItem="4Xq-fO-53k" secondAttribute="centerX" id="87f-aq-XpP"/>
+                            <constraint firstItem="Eb2-i7-Z5L" firstAttribute="width" secondItem="4Xq-fO-53k" secondAttribute="width" id="FcY-pC-Iti"/>
+                            <constraint firstItem="Eb2-i7-Z5L" firstAttribute="height" secondItem="4Xq-fO-53k" secondAttribute="height" id="IdZ-20-FNc"/>
                             <constraint firstItem="ICp-mX-u5y" firstAttribute="bottom" secondItem="niG-Ug-MK7" secondAttribute="bottom" id="ewF-tP-LfM"/>
                             <constraint firstItem="niG-Ug-MK7" firstAttribute="leading" secondItem="ICp-mX-u5y" secondAttribute="leading" id="gv6-T9-ElY"/>
                             <constraint firstItem="niG-Ug-MK7" firstAttribute="top" secondItem="ICp-mX-u5y" secondAttribute="top" id="kOX-bF-5Iq"/>
-                            <constraint firstItem="GbF-9c-nS7" firstAttribute="centerY" secondItem="4Xq-fO-53k" secondAttribute="centerY" id="rRH-VK-F69"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Titulo" largeTitleDisplayMode="never" id="6bA-hk-lWr"/>
                     <connections>
+                        <outlet property="loadingActivityIndicator" destination="GbF-9c-nS7" id="xVg-P0-fAy"/>
+                        <outlet property="loadingView" destination="Eb2-i7-Z5L" id="Zgu-KG-3N2"/>
                         <outlet property="newsWebView" destination="niG-Ug-MK7" id="fdQ-cs-z18"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6cK-7w-ahu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1966" y="-18"/>
+            <point key="canvasLocation" x="1965.6488549618321" y="-18.30985915492958"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="sCF-rt-U7R">
