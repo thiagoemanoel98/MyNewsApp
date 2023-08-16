@@ -5,25 +5,31 @@
 //  Created by Thiago Emanoel on 13/08/23.
 //
 
-import UIKit
+import WebKit
 
 class NewsViewController: UIViewController {
+    
+    // Conecta o interface builder com o interface component
+    @IBOutlet weak var newsWebView:WKWebView!
+
+    
+    var news: NewsModel? {
+        didSet {
+            self.title = news?.source.name;
+        }
+    }
 
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        super.viewDidLoad();
+        
+        setupWebView();
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func setupWebView() {
+        guard let news = news, let url = URL(string: news.url) else { return };
+        
+        self.newsWebView.load(URLRequest(url: url));
+        
     }
-    */
 
 }

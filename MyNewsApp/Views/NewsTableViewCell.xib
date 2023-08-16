@@ -82,6 +82,7 @@
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="link" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="mLc-hh-gh4">
                                                 <rect key="frame" x="867.66666666666663" y="-3.5527136788005009e-15" width="21.333333333333371" height="20.666666666666671"/>
+                                                <color key="tintColor" systemColor="linkColor"/>
                                             </imageView>
                                         </subviews>
                                     </stackView>
@@ -120,6 +121,9 @@
     </objects>
     <resources>
         <image name="link" catalog="system" width="128" height="124"/>
+        <systemColor name="linkColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
